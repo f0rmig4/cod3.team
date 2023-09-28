@@ -7,6 +7,7 @@ import Hero from '@/components/hero'
 import Features from '@/components/features'
 import Newsletter from '@/components/newsletter'
 import Timeline from '@/components/timeline'
+import Zigzag from '@/components/zigzag'
 import Testimonials from '@/components/testimonials'
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Hero />
       <Features />
       <Timeline />
+      <Zigzag />
       {/* <Testimonials /> */}
       <Newsletter />
     </>
