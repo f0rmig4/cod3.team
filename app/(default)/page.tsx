@@ -5,22 +5,22 @@ export const metadata = {
 };
 
 import Hero from "@/components/hero";
+import Stats from "@/components/stats";
 import Features from "@/components/features";
-import Newsletter from "@/components/newsletter";
-import Timeline from "@/components/timeline";
-import Zigzag from "@/components/zigzag";
-import Testimonials from "@/components/testimonials";
+import Team from "@/components/team";
 import Companies from "@/components/companies";
+import Timeline from "@/components/timeline";
+import Newsletter from "@/components/newsletter";
 
 export default function Home() {
   return (
     <>
       <Hero />
       <Features />
+      {/* <Team /> */}
       <Companies />
       <Timeline />
-      {/* <Zigzag />
-      <Testimonials /> */}
+      <Stats />
       <Newsletter />
     </>
   );

@@ -19,80 +19,62 @@ export default function Companies() {
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4">Companies we co-create with</h1>
           </div>
-          <div className="images">
-            <div className="row">
-              <div className="col-md-3">
-                <Image
-                  className=""
-                  src={Company04}
-                  width={120}
-                  height={50}
-                  alt="Company 04"
-                />
-              </div>
-              <div className="col-md-3">
-                <Image
-                  className=""
-                  src={Company01}
-                  width={180}
-                  height={50}
-                  alt="Company 01"
-                />
-              </div>
-              <div className="col-md-3">
-                <Image
-                  className=""
-                  src={Company02}
-                  width={170}
-                  height={50}
-                  alt="Company 02"
-                />
-              </div>
-              {/* <div className="col-md-3">
-                <Image
-                  className=""
-                  src={Company03}
-                  width={170}
-                  height={50}
-                  alt="Company 03"
-                />
-              </div> */}
-              <div className="col-md-3">
-                <Image
-                  className=""
-                  src={Company05}
-                  width={200}
-                  height={50}
-                  alt="Company 05"
-                />
-              </div>
-              <div className="col-md-3">
-                <Image
-                  className=""
-                  src={Company07}
-                  width={220}
-                  height={50}
-                  alt="Company 07"
-                />
-              </div>
-              <div className="col-md-3">
-                <Image
-                  className=""
-                  src={Company08}
-                  width={200}
-                  height={50}
-                  alt="Company 08"
-                />
-              </div>
-              <div className="col-md-3">
-                <Image
-                  className=""
-                  src={Company09}
-                  width={250}
-                  height={50}
-                  alt="Company 09"
-                />
-              </div>
+
+          {/* Images grid */}
+          <div className="grid grid-cols-2 md:grid-cols-3 gap-8 justify-items-center items-center max-w-4xl mx-auto">
+            <div>
+              <Image
+                src={Company04}
+                width={120}
+                height={50}
+                alt="Company 04"
+                className="max-w-full filter grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition duration-300"
+              />
+            </div>
+            <div>
+              <Image
+                src={Company01}
+                width={180}
+                height={50}
+                alt="Company 01"
+                className="max-w-full filter grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition duration-300"
+              />
+            </div>
+            <div>
+              <Image
+                src={Company02}
+                width={170}
+                height={50}
+                alt="Company 02"
+                className="max-w-full filter grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition duration-300"
+              />
+            </div>
+            <div>
+              <Image
+                src={Company05}
+                width={200}
+                height={50}
+                alt="Company 05"
+                className="max-w-full filter grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition duration-300"
+              />
+            </div>
+            <div>
+              <Image
+                src={Company07}
+                width={220}
+                height={50}
+                alt="Company 07"
+                className="max-w-full filter grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition duration-300"
+              />
+            </div>
+            <div>
+              <Image
+                src={Company09}
+                width={250}
+                height={50}
+                alt="Company 09"
+                className="max-w-full filter grayscale opacity-80 hover:grayscale-0 hover:opacity-100 transition duration-300"
+              />
             </div>
           </div>
         </div>

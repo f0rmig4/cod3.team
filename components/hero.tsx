@@ -47,25 +47,28 @@ export default function Hero() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h1 mb-4" data-aos="fade-up">
-              Digital product development that transforms businesses
+              Developing the future with Software solutions
             </h1>
-            <p
-              className="text-xl text-gray-400 mb-8"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              Code quality and design that only experienced professionals can
-              deliver. We develop and design digital products that make a
-              difference from the very first delivery.
-            </p>
-            {/* <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
+
+            <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
               <div data-aos="fade-up" data-aos-delay="400">
-                <a className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Start free trial</a>
+                <a
+                  className="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0"
+                  href="https://web.whatsapp.com/send/?phone=51999489818"
+                  target="_blanck"
+                >
+                  Talk to an expert
+                </a>
               </div>
-              <div data-aos="fade-up" data-aos-delay="600">
-                <a className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Learn more</a>
-              </div>
-            </div> */}
+              {/* <div data-aos="fade-up" data-aos-delay="600">
+                <a
+                  className="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
+                  href="#0"
+                >
+                  Learn more
+                </a>
+              </div> */}
+            </div>
           </div>
 
           {/* <ModalVideo

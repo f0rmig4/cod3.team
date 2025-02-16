@@ -55,7 +55,15 @@ export default function Footer() {
                 <ul>
                   <li className="mb-1">
                     <Link
-                      href="/"
+                      href="#services"
+                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
+                    >
+                      Staff Augmentation
+                    </Link>
+                  </li>
+                  <li className="mb-1">
+                    <Link
+                      href="#services"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
                       Technical Consulting
@@ -63,34 +71,10 @@ export default function Footer() {
                   </li>
                   <li className="mb-1">
                     <Link
-                      href="/"
+                      href="#services"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
-                      Squad Allocation
-                    </Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link
-                      href="/"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      Build
-                    </Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link
-                      href="/"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      Product Concept
-                    </Link>
-                  </li>
-                  <li className="mb-1">
-                    <Link
-                      href="/"
-                      className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
-                    >
-                      Discovery
+                      Custom Development
                     </Link>
                   </li>
                 </ul>
