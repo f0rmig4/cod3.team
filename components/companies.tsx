@@ -48,7 +48,7 @@ export default function Companies() {
                   alt="Company 02"
                 />
               </div>
-              <div className="col-md-3">
+              {/* <div className="col-md-3">
                 <Image
                   className=""
                   src={Company03}
@@ -56,7 +56,7 @@ export default function Companies() {
                   height={50}
                   alt="Company 03"
                 />
-              </div>
+              </div> */}
               <div className="col-md-3">
                 <Image
                   className=""
