@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Timeline() {
   return (
-    <section>
+    <section id="process">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-800">
           {/* Section header */}
