@@ -1,0 +1,96 @@
+/* Colors */
+:root {
+    --black: #34435E;
+    --white: #ffffff;
+}
+
+.timeline {
+    min-width: 300px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.timeline .item {
+    font-size: 1em;
+    line-height: 1.75em;
+    border-top: 3px solid;
+    border-image: linear-gradient(to right, #743ad5 0%, #d53a9d 100%);
+    border-image-slice: 1;
+    border-width: 3px;
+    margin: 0;
+    padding: 40px;
+    counter-increment: section;
+    position: relative;
+}
+
+.timeline .item span {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    color: var(--fg-bold);
+    font-size: 1.4em;
+    font-weight: bold;
+    letter-spacing: var(--font-letter-spacing-alt);
+    margin: 0 0 calc(var(--element-margin) * 0.5) 0;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+
+.timeline .blb0{
+    border-left: 0;
+    border-bottom: 0;
+}
+
+.timeline .brb0 {
+    border-right: 0;
+    border-bottom: 0;
+}
+
+/* Numbers */
+.timeline .item:before {
+    content: counter(section);
+    position: absolute;
+    border-radius: 50%;
+    padding: 10px;
+    height: 40px;
+    width: 40px;
+    background-color: var(--black);
+    text-align: center;
+    line-height: 1.25em;
+    color: var(--white);
+    font-size: 1em;
+}
+
+/* Odd number borders */
+.timeline .item:nth-child(odd) {
+    border-right: 3px solid;
+    padding-left: 0;
+}
+
+.timeline .item:nth-child(odd):before {
+    left: 100%;
+    margin-left: -20px;
+}
+
+/* Even number borders */
+.timeline .item:nth-child(even) {
+    border-left: 3px solid;
+    padding-right: 0;
+}
+
+.timeline .item:nth-child(even):before {
+    right: 100%;
+    margin-right: -20px;
+}
+
+/* Handle first and last */
+.timeline .item:first-child {
+    border-top: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.timeline .item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
