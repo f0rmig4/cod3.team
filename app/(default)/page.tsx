@@ -10,6 +10,7 @@ import Features from "@/components/features";
 import Companies from "@/components/companies";
 import Timeline from "@/components/timeline";
 // import Cases from "@/components/cases";
+import Testimonials from "@/components/testimonials";
 import Newsletter from "@/components/newsletter";
 
 export default function Home() {
@@ -21,7 +22,7 @@ export default function Home() {
       <Companies />
       <Timeline />
       <Stats />
-      {/* <Cases /> */}
+      <Testimonials />
       <Newsletter />
     </>
   );
