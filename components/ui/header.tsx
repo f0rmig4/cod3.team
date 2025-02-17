@@ -60,6 +60,14 @@ export default function Header() {
               </li>
               <li>
                 <a
+                  href="#cases"
+                  className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
+                >
+                  Cases
+                </a>
+              </li>
+              <li>
+                <a
                   href="#contact"
                   className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >

@@ -95,6 +95,15 @@ export default function MobileMenu() {
           </li>
           <li>
             <a
+              href="#cases"
+              className="flex text-gray-300 hover:text-gray-200 py-2"
+              onClick={() => setIsOpen(false)}
+            >
+              Cases
+            </a>
+          </li>
+          <li>
+            <a
               href="#contact"
               className="flex text-gray-300 hover:text-gray-200 py-2"
               onClick={() => setIsOpen(false)}
