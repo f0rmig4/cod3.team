@@ -11,12 +11,11 @@ export default function Testimonials() {
         <div className="py-12 md:py-20 border-t border-gray-800">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Testimonials</h2>
-            {/* <p className="text-xl text-gray-400">
-              Vitae aliquet nec ullamcorper sit amet risus nullam eget felis
-              semper quis lectus nulla at volutpat diam ut venenatis tellus—in
-              ornare.
-            </p> */}
+            <h2 className="h2 mb-4">Take Our Clients’ Word for It</h2>
+            <p className="text-xl text-gray-400">
+              Do you want to know why so many businesses like working with us?
+              Here’s what they have to say about it.
+            </p>
           </div>
 
           {/* Testimonials */}
