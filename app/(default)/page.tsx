@@ -7,10 +7,9 @@ export const metadata = {
 import Hero from "@/components/hero";
 import Stats from "@/components/stats";
 import Features from "@/components/features";
-import Team from "@/components/team";
 import Companies from "@/components/companies";
 import Timeline from "@/components/timeline";
-import Cases from "@/components/cases";
+// import Cases from "@/components/cases";
 import Newsletter from "@/components/newsletter";
 
 export default function Home() {
@@ -22,7 +21,7 @@ export default function Home() {
       <Companies />
       <Timeline />
       <Stats />
-      <Cases />
+      {/* <Cases /> */}
       <Newsletter />
     </>
   );
