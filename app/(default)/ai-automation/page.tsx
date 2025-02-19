@@ -18,11 +18,11 @@ export default function AIAutomation() {
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
               <h1 className="h1" data-aos="fade-up">
-                Clone Your Best Salesperson with AI
+                Supercharge Your Sales Team with AI
               </h1>
               <h3 className="h3 mb-8 mt-6">
-                Have trained AI Agents for your company, available on WhatsApp,
-                tirelessly 24 hours a day.
+                Empower your company with trained AI Agents, available on
+                WhatsApp and ready to assist 24/7.
               </h3>
 
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
