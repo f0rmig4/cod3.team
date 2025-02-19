@@ -51,7 +51,7 @@ export default function Testimonials() {
               </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
                 <cite className="text-gray-200 not-italic">Jean Cousseau</cite>{" "}
-                -{" "}
+                <br />
                 <a
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
                   href="https://www.toptool.com.br/"
@@ -63,7 +63,7 @@ export default function Testimonials() {
             </div>
 
             {/* 2nd testimonial */}
-            {/* <div
+            <div
               className="flex flex-col h-full p-6 bg-gray-800"
               data-aos="fade-up"
               data-aos-delay="200"
@@ -87,22 +87,24 @@ export default function Testimonials() {
                 </div>
               </div>
               <blockquote className="text-lg text-gray-400 grow">
-                — Open PRO lets me quickly get the insights I care about so that
-                I can focus on my productive work. I've had Open PRO for about
-                24 hours now and I honestly don't know how I functioned without
-                it before.
+                — Cod3 has transformed our operation! With innovation and
+                efficiency, their software has increased our productivity and
+                modernized our processes. We recommend it!
               </blockquote>
               <div className="text-gray-700 font-medium mt-6 pt-5 border-t border-gray-700">
-                <cite className="text-gray-200 not-italic">Anastasia Dan</cite>{" "}
-                -{" "}
+                <cite className="text-gray-200 not-italic">
+                  João Carlos Cabral
+                </cite>{" "}
+                <br />
                 <a
                   className="text-purple-600 hover:text-gray-200 transition duration-150 ease-in-out"
-                  href="#0"
+                  href="https://centraldofranqueado.com.br/"
+                  target="_blank"
                 >
-                  UX Board
+                  CTO in Central do Franqueado
                 </a>
               </div>
-            </div> */}
+            </div>
 
             {/* 3rd testimonial */}
             {/* <div
