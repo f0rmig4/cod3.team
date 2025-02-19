@@ -79,7 +79,7 @@ export default function Cases() {
             </div>
 
             {/* 4rd Case - Coliseu Group */}
-            <div
+            {/* <div
               className="relative flex flex-col items-center"
               data-aos="fade-up"
               data-aos-delay="200"
@@ -97,7 +97,7 @@ export default function Cases() {
                   View Full Case
                 </Link>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

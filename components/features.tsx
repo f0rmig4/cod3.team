@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Features() {
   return (
     <section id="services">
@@ -45,13 +47,15 @@ export default function Features() {
                   />
                 </svg>
               </div>
-              <h4 className="h4 mb-2">Staff Augmentation</h4>
+              <h4 className="h4 mb-2">Custom Development</h4>
               <p className="text-lg text-gray-400 text-center">
-                Strengthen your team with our skilled developers. Flexible
-                hiring models for short and long-term projects.
+                End-to-end development of custom software solutions, from MVPs
+                to enterprise-grade applications.
               </p>
             </div>
-
+            {/* Staff Augmentation
+            Strengthen your team with our skilled developers. Flexible
+            hiring models for short and long-term projects. */}
             {/* 2nd item */}
             <div
               className="relative flex flex-col items-center"
@@ -119,11 +123,17 @@ export default function Features() {
                   />
                 </svg>
               </div>
-              <h4 className="h4 mb-2">Custom Development</h4>
+              <h4 className="h4 mb-2">AI Automation</h4>
               <p className="text-lg text-gray-400 text-center">
-                End-to-end development of custom software solutions, from MVPs
-                to enterprise-grade applications.
+                Advanced artificial intelligence agents for companies and
+                corporations.
               </p>
+              <Link
+                href="/ai-automation"
+                className="btn text-white bg-purple-600 hover:bg-purple-700 mt-4"
+              >
+                Watch now
+              </Link>
             </div>
           </div>
         </div>
