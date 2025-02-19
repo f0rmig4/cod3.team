@@ -8,3 +8,8 @@
   filter: grayscale(0%);
   opacity: 1;
 } 
+
+.svg-custom {
+  height: 300px;
+  fill: white;
+}

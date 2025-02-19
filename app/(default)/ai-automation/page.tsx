@@ -41,6 +41,15 @@ export default function AIAutomation() {
         </div>
         <Blocks />
         <Zigzag />
+        <div className="mt-20 mb-12 pl-6 pr-6">
+          <h3 className="h3" data-aos="fade-up">
+            Ready to start your journey with AI?
+          </h3>
+          <h4 className="h4" data-aos="fade-up">
+            Get in touch now and find out how Artificial Intelligence can
+            transform your business.
+          </h4>
+        </div>
         <Newsletter />
       </div>
     </section>
