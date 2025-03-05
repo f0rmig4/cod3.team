@@ -128,12 +128,12 @@ export default function Features() {
                 Advanced artificial intelligence agents for companies and
                 corporations.
               </p>
-              <Link
+              {/* <Link
                 href="/ai-automation"
                 className="btn text-white bg-purple-600 hover:bg-purple-700 mt-4"
               >
                 Watch now
-              </Link>
+              </Link> */}
             </div>
           </div>
         </div>
