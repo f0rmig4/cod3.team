@@ -17,7 +17,7 @@ export default function Companies() {
         <div className="py-12 md:py-20 border-t border-gray-800">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Companies we co-create with</h1>
+            <h1 className="h2 mb-4">Empresas com as quais co-criamos</h1>
           </div>
 
           {/* Images grid */}

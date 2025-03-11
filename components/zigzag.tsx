@@ -10,21 +10,19 @@ export default function Zigzag() {
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-800">
-          {/* Section header */}
+          {/* Cabeçalho da seção */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
-            {/* <div className="inline-flex text-sm font-semibold py-1 px-3 m-2 text-green-600 bg-green-200 rounded-full mb-4">Reach goals that matter</div> */}
             <h1 className="h2 mb-4">
-              Various sectors
-              <br /> being transformed with AI
+              Diversos setores
+              <br /> sendo transformados pela IA
             </h1>
-            {/* <p className="text-xl text-gray-400">Confira alguns dos nossos cases de sucesso.</p> */}
           </div>
 
-          {/* Items */}
+          {/* Itens */}
           <div className="grid gap-20">
-            {/* 1st item */}
+            {/* 1º item */}
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
-              {/* Image */}
+              {/* Imagem */}
               <div
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1"
                 data-aos="fade-up"
@@ -32,31 +30,30 @@ export default function Zigzag() {
                 <Image
                   className="max-w-full mx-auto md:max-w-none h-auto svg-custom"
                   src={FeatImage01}
-                  alt="Features 01"
+                  alt="Recursos 01"
                   height={200}
                 />
               </div>
-              {/* Content */}
+              {/* Conteúdo */}
               <div
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
                 data-aos="fade-right"
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  {/* <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div> */}
-                  <h3 className="h3 mb-3">Customer Support</h3>
+                  <h3 className="h3 mb-3">Atendimento ao Cliente</h3>
                   <p className="text-xl text-gray-400 mb-4">
-                    AI agents can handle up to 70% of frequent demands and
-                    inquiries. More complex issues can be automatically
-                    escalated to human agents as soon as the AI does not know
-                    the answer.
+                    Agentes de IA podem lidar com até 70% das demandas e dúvidas
+                    frequentes. Questões mais complexas podem ser
+                    automaticamente encaminhadas para atendentes humanos assim
+                    que a IA não souber a resposta.
                   </p>
                 </div>
               </div>
             </div>
 
-            {/* 2nd item */}
+            {/* 2º item */}
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
-              {/* Image */}
+              {/* Imagem */}
               <div
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl"
                 data-aos="fade-up"
@@ -64,31 +61,30 @@ export default function Zigzag() {
                 <Image
                   className="max-w-full mx-auto md:max-w-none h-auto"
                   src={FeatImage02}
-                  alt="Features 02"
+                  alt="Recursos 02"
                   height={200}
                 />
               </div>
-              {/* Content */}
+              {/* Conteúdo */}
               <div
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
                 data-aos="fade-left"
               >
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                  {/* <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div> */}
-                  <h3 className="h3 mb-3">Infoproduct and SaaS</h3>
+                  <h3 className="h3 mb-3">Infoproduto e SaaS</h3>
                   <p className="text-xl text-gray-400 mb-4">
-                    AI agents can help increase conversions by nurturing and
-                    directing leads at all stages of the funnel, recovering
-                    abandoned carts, and even conducting onboarding and
-                    activation for your customers.
+                    Agentes de IA podem ajudar a aumentar conversões, nutrindo e
+                    direcionando leads em todas as etapas do funil, recuperando
+                    carrinhos abandonados e até conduzindo onboarding e ativação
+                    para seus clientes.
                   </p>
                 </div>
               </div>
             </div>
 
-            {/* 3rd item */}
+            {/* 3º item */}
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
-              {/* Image */}
+              {/* Imagem */}
               <div
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1"
                 data-aos="fade-up"
@@ -96,30 +92,30 @@ export default function Zigzag() {
                 <Image
                   className="max-w-full mx-auto md:max-w-none h-auto"
                   src={FeatImage03}
-                  alt="Features 03"
+                  alt="Recursos 03"
                   height={200}
                 />
               </div>
-              {/* Content */}
+              {/* Conteúdo */}
               <div
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
                 data-aos="fade-right"
               >
                 <div className="md:pr-4 lg:pr-12 xl:pr-16">
-                  {/* <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div> */}
-                  <h3 className="h3 mb-3">Sales Teams</h3>
+                  <h3 className="h3 mb-3">Equipes de Vendas</h3>
                   <p className="text-xl text-gray-400 mb-4">
-                    AI agents can automatically qualify leads, interacting with
-                    potential customers to understand their needs and interests,
-                    directing the most qualified leads to the sales team.
+                    Agentes de IA podem qualificar leads automaticamente,
+                    interagindo com potenciais clientes para entender suas
+                    necessidades e interesses, encaminhando os leads mais
+                    qualificados para a equipe de vendas.
                   </p>
                 </div>
               </div>
             </div>
 
-            {/* 4nd item */}
+            {/* 4º item */}
             <div className="md:grid md:grid-cols-12 md:gap-6 items-center">
-              {/* Image */}
+              {/* Imagem */}
               <div
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 rtl"
                 data-aos="fade-up"
@@ -127,23 +123,22 @@ export default function Zigzag() {
                 <Image
                   className="max-w-full mx-auto md:max-w-none h-auto"
                   src={FeatImage04}
-                  alt="Features 04"
+                  alt="Recursos 04"
                   height={200}
                 />
               </div>
-              {/* Content */}
+              {/* Conteúdo */}
               <div
                 className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-7 lg:col-span-6"
                 data-aos="fade-left"
               >
                 <div className="md:pl-4 lg:pl-12 xl:pl-16">
-                  {/* <div className="font-architects-daughter text-xl text-purple-600 mb-2">More speed. Less spend</div> */}
-                  <h3 className="h3 mb-3"> Human Resources</h3>
+                  <h3 className="h3 mb-3">Recursos Humanos</h3>
                   <p className="text-xl text-gray-400 mb-4">
-                    AI tools can help in the screening of CVs and in the
-                    recruitment process, analyzing candidate profiles and their
-                    compatibility with the vacancy. Reduction in recruitment
-                    time and costs, and greater assertiveness in hiring.
+                    Ferramentas de IA podem ajudar na triagem de currículos e no
+                    processo de recrutamento, analisando perfis de candidatos e
+                    sua compatibilidade com a vaga. Redução no tempo e custos de
+                    contratação, além de maior assertividade nas admissões.
                   </p>
                 </div>
               </div>

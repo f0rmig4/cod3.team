@@ -43,9 +43,9 @@ export default function Newsletter() {
           <div className="relative flex flex-col lg:flex-row justify-between items-center">
             {/* CTA content */}
             <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
-              <h3 className="h3 text-white mb-2">LET'S TALK?</h3>
+              <h3 className="h3 text-white mb-2">VAMOS CONVERSAR?</h3>
               <p className="text-purple-200 text-lg">
-                Share your email so we can exchange ideas
+                Compartilhe seu e-mail para que possamos trocar ideias
               </p>
             </div>
 
@@ -55,14 +55,14 @@ export default function Newsletter() {
                 <input
                   type="email"
                   className="w-full appearance-none bg-purple-700 border border-purple-500 focus:border-purple-300 rounded-sm px-4 py-3 mb-2 sm:mb-0 sm:mr-2 text-white placeholder-purple-400"
-                  placeholder="Enter your best email..."
-                  aria-label="Enter your best email..."
+                  placeholder="Digite seu melhor e-mail..."
+                  aria-label="Digite seu melhor e-mail..."
                 />
                 <a
                   className="btn text-purple-600 bg-purple-100 hover:bg-white shadow"
                   href="#0"
                 >
-                  Write
+                  Enviar
                 </a>
               </div>
               {/* Success message */}

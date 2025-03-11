@@ -3,63 +3,65 @@ export default function Toptool() {
     <article className="relative pt-32 pb-16 md:pt-40 md:pb-20">
       <div className="max-w-3xl mx-auto px-4 sm:px-6">
         <div className="pb-12 md:pb-20">
-          <h1 className="h1 mb-4">Toptool – Production Management System</h1>
+          <h1 className="h1 mb-4">Toptool – Sistema de Gestão de Produção</h1>
 
           <div className="text-lg text-gray-400">
-            <h2 className="h3 text-gray-200 mb-4">Context</h2>
+            <h2 className="h3 text-gray-200 mb-4">Contexto</h2>
             <p className="mb-8">
-              Developed the architecture and interface of a software that
-              manages and controls the entire production process of a die
-              manufacturing factory, from order entry through service execution
-              to delivery.
+              Desenvolvemos a arquitetura e a interface de um software que
+              gerencia e controla todo o processo de produção de uma fábrica de
+              matrizes, desde a entrada do pedido até a execução do serviço e a
+              entrega.
             </p>
 
-            <h2 className="h3 text-gray-200 mb-4">About Toptool</h2>
+            <h2 className="h3 text-gray-200 mb-4">Sobre a Toptool</h2>
             <p className="mb-8">
-              Founded in 2008 and headquartered in Carlos Barbosa, RS, in the
-              Serra Gaúcha region, Top Tool is located in one of Brazil's
-              largest metalworking hubs, enabling great integration with its
-              main customers and suppliers, ensuring agility in the supply of
-              its products and services.
+              Fundada em 2008 e com sede em Carlos Barbosa, RS, na região da
+              Serra Gaúcha, a Top Tool está localizada em um dos maiores polos
+              metalúrgicos do Brasil, permitindo uma grande integração com seus
+              principais clientes e fornecedores, garantindo agilidade no
+              fornecimento de seus produtos e serviços.
             </p>
 
-            <h2 className="h3 text-gray-200 mb-4">Project Scope</h2>
+            <h2 className="h3 text-gray-200 mb-4">Escopo do Projeto</h2>
             <ul className="list-disc pl-6 mb-8">
-              <li className="mb-2">Prototyping</li>
+              <li className="mb-2">Prototipagem</li>
               <li className="mb-2">Design</li>
-              <li className="mb-2">Software Engineering</li>
-              <li className="mb-2">Software Development</li>
-              <li>Software Maintenance</li>
+              <li className="mb-2">Engenharia de Software</li>
+              <li className="mb-2">Desenvolvimento de Software</li>
+              <li>Manutenção de Software</li>
             </ul>
 
-            <h2 className="h3 text-gray-200 mb-4">Partnership</h2>
+            <h2 className="h3 text-gray-200 mb-4">Parceria</h2>
             <p className="mb-8">
-              Our main client, we maintain a 5-year relationship. The project
-              started in March 2016 and continues to evolve with ongoing
-              maintenance and new feature development.
+              Nosso principal cliente, mantemos um relacionamento de 5 anos. O
+              projeto começou em março de 2016 e continua a evoluir com
+              manutenção contínua e desenvolvimento de novas funcionalidades.
             </p>
 
             <h2 className="h3 text-gray-200 mb-4">
-              Cod3.team's Responsibility
+              Responsabilidade da Cod3.team
             </h2>
-            <p className="mb-8">Our team is responsible for:</p>
+            <p className="mb-8">Nossa equipe é responsável por:</p>
             <ul className="list-disc pl-6 mb-8">
-              <li className="mb-2">Full system architecture design</li>
-              <li className="mb-2">Frontend and backend development</li>
-              <li className="mb-2">Database design and optimization</li>
-              <li className="mb-2">System maintenance and updates</li>
-              <li>User support and training</li>
+              <li className="mb-2">
+                Projeto completo da arquitetura do sistema
+              </li>
+              <li className="mb-2">Desenvolvimento do frontend e backend</li>
+              <li className="mb-2">Projeto e otimização do banco de dados</li>
+              <li className="mb-2">Manutenção e atualizações do sistema</li>
+              <li>Suporte e treinamento de usuários</li>
             </ul>
 
-            <h2 className="h3 text-gray-200 mb-4">Technology Stack</h2>
+            <h2 className="h3 text-gray-200 mb-4">Tecnologias Utilizadas</h2>
             <ul className="list-disc pl-6 mb-8">
               <li className="mb-2">Frontend: Angular.js</li>
-              <li className="mb-2">Backend: PHP with CakePHP framework</li>
-              <li className="mb-2">Database: MySQL</li>
-              <li>Infrastructure: AWS</li>
+              <li className="mb-2">Backend: PHP com framework CakePHP</li>
+              <li className="mb-2">Banco de Dados: MySQL</li>
+              <li>Infraestrutura: AWS</li>
             </ul>
 
-            <h2 className="h3 text-gray-200 mb-4">Project Links</h2>
+            <h2 className="h3 text-gray-200 mb-4">Links do Projeto</h2>
             <ul className="list-disc pl-6 mb-8">
               <li className="mb-2">
                 <span className="text-gray-400">Website: </span>

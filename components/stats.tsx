@@ -5,7 +5,7 @@ export default function Stats() {
         <div className="py-12 md:py-20 pb-48 border-t border-gray-800">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Numbers that define us</h2>
+            <h2 className="h2 mb-4">Números que nos definem</h2>
           </div>
 
           {/* Items */}
@@ -20,11 +20,9 @@ export default function Stats() {
               data-aos-anchor="[data-aos-id-stats]"
             >
               <div className="font-bold text-4xl lg:text-6xl text-purple-600 mb-2">
-                18+
+                8+
               </div>
-              <div className="text-gray-400 text-center">
-                Years of Experience
-              </div>
+              <div className="text-gray-400 text-center">Anos de Trabalho</div>
             </div>
 
             {/* Item 2 */}
@@ -38,7 +36,7 @@ export default function Stats() {
                 32+
               </div>
               <div className="text-gray-400 text-center">
-                Projects Delivered
+                Projetos Entregues
               </div>
             </div>
 
@@ -52,7 +50,7 @@ export default function Stats() {
               <div className="font-bold text-4xl lg:text-6xl text-purple-600 mb-2">
                 9k+
               </div>
-              <div className="text-gray-400 text-center">Lines of Code</div>
+              <div className="text-gray-400 text-center">Linhas de Código</div>
             </div>
 
             {/* Item 4 */}
@@ -65,7 +63,7 @@ export default function Stats() {
               <div className="font-bold text-4xl lg:text-6xl text-purple-600 mb-2">
                 4.2k+
               </div>
-              <div className="text-gray-400 text-center">Cups of Coffee</div>
+              <div className="text-gray-400 text-center">Xícaras de Café</div>
             </div>
           </div>
         </div>

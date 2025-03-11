@@ -39,26 +39,24 @@ export default function Footer() {
                 </Link>
               </div>
               <div className="text-gray-400">
-                We are a multidisciplinary team of independent programmers,
-                engineers, and designers, offering a qualified workforce. We
-                value new challenges and understand the need to continuously
-                improve our skills, transforming the technological landscape
-                with simplicity and agility, reducing costs without compromising
-                quality and delivering custom-made software.
+                Somos uma equipe multidisciplinar de especialistas, criando
+                soluções tecnológicas eficientes e personalizadas. Buscamos
+                inovação, agilidade e qualidade, simplificando processos e
+                reduzindo custos sem perder a excelência.
               </div>
             </div>
 
             {/* 2nd block */}
             <div className="md:col-span-8 lg:col-span-7 grid sm:grid-cols-3 gap-8">
               <div className="text-sm">
-                <h6 className="text-gray-200 font-medium mb-1">Services</h6>
+                <h6 className="text-gray-200 font-medium mb-1">Serviços</h6>
                 <ul>
                   <li className="mb-1">
                     <Link
                       href="#services"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
-                      Staff Augmentation
+                      Desenvolvimento Personalizado
                     </Link>
                   </li>
                   <li className="mb-1">
@@ -66,7 +64,7 @@ export default function Footer() {
                       href="#services"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
-                      Technical Consulting
+                      Consultoria técnica
                     </Link>
                   </li>
                   <li className="mb-1">
@@ -74,7 +72,7 @@ export default function Footer() {
                       href="#services"
                       className="text-gray-400 hover:text-gray-100 transition duration-150 ease-in-out"
                     >
-                      Custom Development
+                      Automação de IA
                     </Link>
                   </li>
                 </ul>
@@ -184,7 +182,7 @@ export default function Footer() {
 
             {/* Copyrights note */}
             <div className="text-gray-400 text-sm mr-4">
-              &copy; Cod3.team. All rights reserved.
+              &copy; Cod3.team. Todos os direitos reservados.
             </div>
           </div>
         </div>

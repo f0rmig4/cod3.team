@@ -1,7 +1,7 @@
 export const metadata = {
   title: "Cod3 Team",
   description:
-    "We are a multidisciplinary team of independent programmers, engineers and designers, offering a qualified workforce.",
+    "Somos uma equipe multidisciplinar de programadores, engenheiros e designers independentes, oferecendo uma força de trabalho qualificada.",
 };
 
 import Hero from "@/components/hero";

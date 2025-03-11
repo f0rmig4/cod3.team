@@ -3,21 +3,21 @@ export default function Blocks() {
     <section>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-800">
-          {/* Section header */}
+          {/* Cabeçalho da seção */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Expand your team, not your costs</h2>
+            <h2 className="h2 mb-4">Expanda sua equipe</h2>
             {/* <p className="text-xl text-gray-400">
               Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
               officia deserunt mollit anim id est laborum.
             </p> */}
           </div>
 
-          {/* Items */}
+          {/* Itens */}
           <div
             className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none"
             data-aos-id-blocks
           >
-            {/* 1st item */}
+            {/* 1º item */}
             <div
               className="relative flex flex-col items-center"
               data-aos="fade-up"
@@ -49,16 +49,16 @@ export default function Blocks() {
                   strokeWidth="2"
                 />
               </svg>
-              <h4 className="h4 mb-2">Natural and Intelligent Conversations</h4>
+              <h4 className="h4 mb-2">Conversas Naturais e Inteligentes</h4>
               <p className="text-lg text-gray-400 text-center">
-                Your artificial intelligence will be able to qualify leads,
-                schedule meetings, answer questions, and direct customers to
-                checkout or the appropriate salesperson, always interacting
-                accurately and empathetically.
+                Sua inteligência artificial poderá qualificar leads, agendar
+                reuniões, responder dúvidas e direcionar clientes para o
+                checkout ou para o vendedor adequado, sempre interagindo com
+                precisão e empatia.
               </p>
             </div>
 
-            {/* 2nd item */}
+            {/* 2º item */}
             <div
               className="relative flex flex-col items-center"
               data-aos="fade-up"
@@ -92,17 +92,17 @@ export default function Blocks() {
                 />
               </svg>
               <h4 className="h4 mb-2">
-                While Your Team is Off, AI Agents are On
+                Enquanto Sua Equipe Descansa, Agentes de IA Trabalham
               </h4>
               <p className="text-lg text-gray-400 text-center">
-                With AI, your company can grow without limits and without
-                compromising the budget. Your new virtual team operates
-                tirelessly 24/7, serving thousands of leads and customers with
-                good humor and a willingness to work.
+                Com IA, sua empresa pode crescer sem limites e sem comprometer o
+                orçamento. Sua nova equipe virtual opera incansavelmente 24/7,
+                atendendo milhares de leads e clientes com simpatia e
+                disposição.
               </p>
             </div>
 
-            {/* 3rd item */}
+            {/* 3º item */}
             <div
               className="relative flex flex-col items-center"
               data-aos="fade-up"
@@ -146,10 +146,10 @@ export default function Blocks() {
                   />
                 </g>
               </svg>
-              <h4 className="h4 mb-2">Paid Traffic + AI Agent</h4>
+              <h4 className="h4 mb-2">Tráfego Pago + Agente de IA</h4>
               <p className="text-lg text-gray-400 text-center">
-                Increase your conversions by replacing landing pages with AI
-                Agents in your paid traffic campaigns.
+                Aumente suas conversões substituindo landing pages por Agentes
+                de IA em suas campanhas de tráfego pago.
               </p>
             </div>
           </div>

@@ -4,62 +4,65 @@ export default function FirePath() {
       <div className="max-w-3xl mx-auto px-4 sm:px-6">
         <div className="pb-12 md:pb-20">
           <h1 className="h1 mb-4">
-            Fire Path – The Power of Technology for Planet Conservation
+            Caminho do Fogo – O Poder da Tecnologia para a Conservação do
+            Planeta
           </h1>
 
           <div className="text-lg text-gray-400">
-            <h2 className="h3 text-gray-200 mb-4">Context</h2>
+            <h2 className="h3 text-gray-200 mb-4">Contexto</h2>
             <p className="mb-8">
-              Wildfires represent a growing threat to the environment,
-              destroying biodiversity, compromising soil fertility, and
-              affecting water sources. To address this challenge, Fire Path was
-              created as an innovative technological solution, strengthening
-              prevention, combat, and fire management actions.
+              Os incêndios florestais representam uma ameaça crescente ao meio
+              ambiente, destruindo a biodiversidade, comprometendo a fertilidade
+              do solo e afetando as fontes de água. Para enfrentar esse desafio,
+              o Caminho do Fogo foi criado como uma solução tecnológica
+              inovadora, fortalecendo ações de prevenção, combate e gestão de
+              incêndios.
             </p>
 
-            <h2 className="h3 text-gray-200 mb-4">Objective</h2>
+            <h2 className="h3 text-gray-200 mb-4">Objetivo</h2>
             <p className="mb-8">
-              Develop an integrated platform that assists firefighters,
-              institutions, and communities in fighting wildfires, promoting
-              efficient resource management, knowledge sharing, and biodiversity
-              conservation.
+              Desenvolver uma plataforma integrada que auxilie bombeiros,
+              instituições e comunidades no combate a incêndios florestais,
+              promovendo a gestão eficiente de recursos, o compartilhamento de
+              conhecimento e a conservação da biodiversidade.
             </p>
 
             <h2 className="h3 text-gray-200 mb-4">
-              Cod3.team's Responsibility
+              Responsabilidade da Cod3.team
             </h2>
-            <p className="mb-8">Our team is responsible for:</p>
+            <p className="mb-8">Nossa equipe é responsável por:</p>
             <ul className="list-disc pl-6 mb-8">
               <li className="mb-2">
-                Platform backend maintenance and evolution
+                Manutenção e evolução do backend da plataforma
               </li>
-              <li className="mb-2">Geoprocessing platform management</li>
+              <li className="mb-2">Gestão da plataforma de geoprocessamento</li>
               <li className="mb-2">
-                Development and maintenance of robots for automatic
-                environmental data collection
+                Desenvolvimento e manutenção de robôs para coleta automática de
+                dados ambientais
               </li>
               <li className="mb-2">
-                Integration with satellite APIs and environmental monitoring
-                services
+                Integração com APIs de satélites e serviços de monitoramento
+                ambiental
               </li>
-              <li>System performance and scalability optimization</li>
+              <li>Otimização do desempenho e escalabilidade do sistema</li>
             </ul>
 
-            <h2 className="h3 text-gray-200 mb-4">Technology Stack</h2>
+            <h2 className="h3 text-gray-200 mb-4">Tecnologias Utilizadas</h2>
             <ul className="list-disc pl-6 mb-8">
-              <li className="mb-2">Backend: Node.js with Express</li>
+              <li className="mb-2">Backend: Node.js com Express</li>
               <li className="mb-2">
-                Database: MongoDB for general data, PostGIS for geospatial data
+                Banco de Dados: MongoDB para dados gerais, PostGIS para dados
+                geoespaciais
               </li>
-              <li className="mb-2">Geoprocessing: QGIS Server, GeoServer</li>
+              <li className="mb-2">Geoprocessamento: QGIS Server, GeoServer</li>
               <li className="mb-2">
-                Data Collection: Python with specific libraries for
-                environmental data processing
+                Coleta de Dados: Python com bibliotecas específicas para
+                processamento de dados ambientais
               </li>
-              <li>Infrastructure: AWS (EC2, S3, Lambda)</li>
+              <li>Infraestrutura: AWS (EC2, S3, Lambda)</li>
             </ul>
 
-            <h2 className="h3 text-gray-200 mb-4">Project Links</h2>
+            <h2 className="h3 text-gray-200 mb-4">Links do Projeto</h2>
             <ul className="list-disc pl-6 mb-8">
               <li className="mb-2">
                 <span className="text-gray-400">Website: </span>
@@ -73,14 +76,14 @@ export default function FirePath() {
                 </a>
               </li>
               <li className="mb-2">
-                <span className="text-gray-400">Mobile App: </span>
+                <span className="text-gray-400">Aplicativo Móvel: </span>
                 <a
                   href="https://play.google.com/store/apps/details?id=app.caminhodofogo"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-purple-600 hover:text-purple-400 transition duration-150 ease-in-out"
                 >
-                  Download on Google Play
+                  Baixar no Google Play
                 </a>
               </li>
             </ul>

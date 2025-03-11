@@ -7,9 +7,9 @@ export default function Features() {
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h2 className="h2 mb-4">Our Services</h2>
+            <h2 className="h2 mb-4">Nossos Serviços</h2>
             <p className="text-xl text-gray-400">
-              Specialized solutions to accelerate your digital transformation
+              Soluções especializadas para acelerar sua transformação digital
             </p>
           </div>
 
@@ -47,10 +47,12 @@ export default function Features() {
                   />
                 </svg>
               </div>
-              <h4 className="h4 mb-2">Custom Development</h4>
+              <h4 className="h4 mb-2 text-center">
+                Desenvolvimento Personalizado
+              </h4>
               <p className="text-lg text-gray-400 text-center">
-                End-to-end development of custom software solutions, from MVPs
-                to enterprise-grade applications.
+                Desenvolvimento de soluções de software personalizadas, desde
+                MVPs até aplicações de nível empresarial.
               </p>
             </div>
             {/* Staff Augmentation
@@ -86,10 +88,10 @@ export default function Features() {
                   />
                 </svg>
               </div>
-              <h4 className="h4 mb-2">Technical Consulting</h4>
+              <h4 className="h4 mb-2">Consultoria técnica</h4>
               <p className="text-lg text-gray-400 text-center">
-                Expert guidance on architecture, tech stack selection, and best
-                practices for your software projects.
+                Orientação especializada em arquitetura de software, definição
+                da tecnologia ideal e boas práticas para seus projetos.
               </p>
             </div>
 
@@ -123,17 +125,17 @@ export default function Features() {
                   />
                 </svg>
               </div>
-              <h4 className="h4 mb-2">AI Automation</h4>
+              <h4 className="h4 mb-2">Automação de IA</h4>
               <p className="text-lg text-gray-400 text-center">
-                Advanced artificial intelligence agents for companies and
-                corporations.
+                Agentes avançados de inteligência artificial para empresas e
+                corporações.
               </p>
-              {/* <Link
+              <Link
                 href="/ai-automation"
                 className="btn text-white bg-purple-600 hover:bg-purple-700 mt-4"
               >
-                Watch now
-              </Link> */}
+                Leia Mais
+              </Link>
             </div>
           </div>
         </div>

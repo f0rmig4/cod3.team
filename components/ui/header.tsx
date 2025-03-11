@@ -36,31 +36,31 @@ export default function Header() {
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
                 <a
-                  href="#services"
+                  href="/#services"
                   className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
-                  Services
+                  Serviços
                 </a>
               </li>
               <li>
                 <a
-                  href="#companies"
+                  href="/#companies"
                   className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
-                  Companies
+                  Empresas
                 </a>
               </li>
               <li>
                 <a
-                  href="#process"
+                  href="/#process"
                   className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
-                  Process
+                  Processo
                 </a>
               </li>
               <li>
                 <a
-                  href="#cases"
+                  href="/#cases"
                   className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
                   Cases
@@ -68,10 +68,10 @@ export default function Header() {
               </li>
               <li>
                 <a
-                  href="#contact"
+                  href="/#contact"
                   className="text-gray-300 hover:text-gray-200 px-4 py-2 flex items-center transition duration-150 ease-in-out"
                 >
-                  Contact
+                  Contato
                 </a>
               </li>
               {/* <li>

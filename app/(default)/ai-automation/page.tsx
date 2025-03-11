@@ -1,7 +1,7 @@
 export const metadata = {
-  title: "Transform Your Business with Artificial Intelligence Agents",
+  title: "Transforme seu negócio com Agentes de Inteligência Artificial",
   description:
-    "Leverage the benefits of AI to improve productivity, reduce costs, and enhance customer experience.",
+    "Aproveite os benefícios da IA para aumentar a produtividade, reduzir custos e melhorar a experiência do cliente.",
 };
 
 import Blocks from "@/components/blocks";
@@ -18,11 +18,11 @@ export default function AIAutomation() {
             {/* Section header */}
             <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
               <h1 className="h1" data-aos="fade-up">
-                Supercharge Your Sales Team with AI
+                Potencialize sua equipe de vendas com IA
               </h1>
               <h3 className="h3 mb-8 mt-6">
-                Empower your company with trained AI Agents, available on
-                WhatsApp and ready to assist 24/7.
+                Capacite sua empresa com Agentes de IA treinados, disponíveis no
+                WhatsApp e prontos para atender 24/7.
               </h3>
 
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
@@ -32,7 +32,7 @@ export default function AIAutomation() {
                     href="https://web.whatsapp.com/send/?phone=5551999489818"
                     target="_blanck"
                   >
-                    Talk to an expert
+                    Fale com um especialista
                   </a>
                 </div>
               </div>
@@ -43,11 +43,11 @@ export default function AIAutomation() {
         <Zigzag />
         <div className="mt-20 mb-12 pl-6 pr-6">
           <h3 className="h3" data-aos="fade-up">
-            Ready to start your journey with AI?
+            Pronto para iniciar sua jornada com IA?
           </h3>
           <h4 className="h4" data-aos="fade-up">
-            Get in touch now and find out how Artificial Intelligence can
-            transform your business.
+            Entre em contato agora e descubra como a Inteligência Artificial
+            pode transformar o seu negócio.
           </h4>
         </div>
         <Newsletter />
